@@ -1,0 +1,86 @@
+.Design {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	padding-top: 50px;
+	font-size: 13px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.University,
+.Random,
+.Apple,
+.User {
+	width: 60%;
+}
+
+h2 {
+	color: blueviolet;
+	font-weight: bold;
+	font-size: 20px;
+}
+.Client,
+.Messaging,
+.Sales {
+	margin-right: 20px;
+}
+.University {
+	background-color: aqua;
+}
+.Random {
+	background-color: blue;
+}
+.Apple {
+	background-color: tomato;
+}
+.User {
+	background-color: gray;
+}
+#Container div {
+	position: absolute;
+}
+.One {
+	height: 25px;
+	width: 25px;
+	background-color: white;
+	border-radius: 50%;
+	border: aqua 3px solid;
+	text-align: center;
+	color: aqua;
+	top: 50px;
+	left: 90px;
+}
+.Two {
+	height: 25px;
+	width: 25px;
+	background-color: white;
+	border-radius: 50%;
+	border: blue solid;
+	text-align: center;
+	color: blue;
+	top: 50px;
+	left: 350px;
+}
+.Three {
+	height: 25px;
+	width: 25px;
+	background-color: white;
+	border-radius: 50%;
+	border: tomato solid;
+	text-align: center;
+	color: tomato;
+	top: 50px;
+	right: 652px;
+}
+.Four {
+	height: 25px;
+	width: 25px;
+	background-color: white;
+	border-radius: 50%;
+	border: gray solid;
+	text-align: center;
+	color: gray;
+	top: 50px;
+	right: 251px;
+}
